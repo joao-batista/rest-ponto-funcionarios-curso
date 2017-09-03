@@ -1,4 +1,4 @@
-package br.com.inbit.api;
+package br.com.pontointeligente.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
