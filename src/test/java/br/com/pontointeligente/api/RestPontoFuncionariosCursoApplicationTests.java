@@ -1,4 +1,4 @@
-package br.com.inbit.api;
+package br.com.pontointeligente.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
