@@ -18,6 +18,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import br.com.pontointeligente.api.entities.Empresa;
 import br.com.pontointeligente.api.repositories.EmpresaRepository;
+import br.com.pontointeligente.api.services.EmpresaService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -27,11 +27,10 @@ import br.com.pontointeligente.api.enums.PerfilEnum;
 	
 @Entity
 @Table(name = "funcionario")
-public class Funcionario implements Serializable {
+public class Funcionario extends AbstractBaseEntity implements Serializable {
 
 	private static final long serialVersionUID = -5754246207015712518L;
 	
-	private Long id;
 	private String nome;
 	private String email;
 	private String senha;
@@ -40,7 +39,6 @@ public class Funcionario implements Serializable {
 	private Float qtdHorasTrabalhoDia;
 	private Float qtdHorasAlmoco;
 	private PerfilEnum perfil;
-	private Date dataCriacao;
 	private Date dataAtualizacao;
 	private Empresa empresa;
 	private List<Lancamento> lancamentos;
@@ -135,15 +133,6 @@ public class Funcionario implements Serializable {
 
 	public void setPerfil(PerfilEnum perfil) {
 		this.perfil = perfil;
-	}
-
-	@Column(name = "data_criacao", nullable = false)
-	public Date getDataCriacao() {
-		return dataCriacao;
-	}
-
-	public void setDataCriacao(Date dataCriacao) {
-		this.dataCriacao = dataCriacao;
 	}
 
 	@Column(name = "data_atualizacao", nullable = false)

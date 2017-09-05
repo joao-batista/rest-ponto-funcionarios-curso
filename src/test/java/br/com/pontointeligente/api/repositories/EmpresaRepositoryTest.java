@@ -12,6 +12,7 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import br.com.pontointeligente.api.entities.Empresa;
+import br.com.pontointeligente.api.repositories.EmpresaRepository;
 
 
 @RunWith(SpringRunner.class)

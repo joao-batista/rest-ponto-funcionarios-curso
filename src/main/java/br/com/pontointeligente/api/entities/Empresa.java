@@ -1,6 +1,5 @@
 package br.com.pontointeligente.api.entities;
 
-import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
@@ -18,11 +17,10 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "empresa")
-public class Empresa implements Serializable {
+public class Empresa extends AbstractBaseEntity {
 
 	private static final long serialVersionUID = 3960436649365666213L;
 
-	private Long id;
 	private String razaoSocial;
 	private String cnpj;
 	private Date dataCriacao;

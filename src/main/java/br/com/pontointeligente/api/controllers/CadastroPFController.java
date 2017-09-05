@@ -58,7 +58,6 @@ public class CadastroPFController {
 		log.info("Cadastrando PF: {}", cadastroPFDto.toString());
 		Response<CadastroPFDto> response = new Response<CadastroPFDto>();
 
-		validarDadosExistentes(cadastroPFDto, result);
 		Funcionario funcionario = this.converterDtoParaFuncionario(cadastroPFDto, result);
 
 		if (result.hasErrors()) {

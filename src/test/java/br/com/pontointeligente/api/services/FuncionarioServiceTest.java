@@ -18,6 +18,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import br.com.pontointeligente.api.entities.Funcionario;
 import br.com.pontointeligente.api.repositories.FuncionarioRepository;
+import br.com.pontointeligente.api.services.FuncionarioService;
 
 
 @RunWith(SpringRunner.class)

@@ -22,6 +22,9 @@ import br.com.pontointeligente.api.entities.Funcionario;
 import br.com.pontointeligente.api.entities.Lancamento;
 import br.com.pontointeligente.api.enums.PerfilEnum;
 import br.com.pontointeligente.api.enums.TipoEnum;
+import br.com.pontointeligente.api.repositories.EmpresaRepository;
+import br.com.pontointeligente.api.repositories.FuncionarioRepository;
+import br.com.pontointeligente.api.repositories.LancamentoRepository;
 import br.com.pontointeligente.api.utils.PasswordUtils;
 
 

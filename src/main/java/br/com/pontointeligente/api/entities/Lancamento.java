@@ -23,15 +23,13 @@ import br.com.pontointeligente.api.enums.TipoEnum;
 
 @Entity
 @Table(name = "lancamento")
-public class Lancamento implements Serializable {
+public class Lancamento extends AbstractBaseEntity implements Serializable {
 	
 	private static final long serialVersionUID = 6524560251526772839L;
 
-	private Long id;
 	private Date data;
 	private String descricao;
 	private String localizacao;
-	private Date dataCriacao;
 	private Date dataAtualizacao;
 	private TipoEnum tipo;
 	private Funcionario funcionario;
@@ -75,15 +73,6 @@ public class Lancamento implements Serializable {
 
 	public void setLocalizacao(String localizacao) {
 		this.localizacao = localizacao;
-	}
-
-	@Column(name = "data_criacao", nullable = false)
-	public Date getDataCriacao() {
-		return dataCriacao;
-	}
-
-	public void setDataCriacao(Date dataCriacao) {
-		this.dataCriacao = dataCriacao;
 	}
 
 	@Column(name = "data_atualizacao", nullable = false)

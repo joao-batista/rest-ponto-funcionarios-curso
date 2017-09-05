@@ -17,6 +17,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import br.com.pontointeligente.api.entities.Empresa;
 import br.com.pontointeligente.api.entities.Funcionario;
 import br.com.pontointeligente.api.enums.PerfilEnum;
+import br.com.pontointeligente.api.repositories.EmpresaRepository;
+import br.com.pontointeligente.api.repositories.FuncionarioRepository;
 import br.com.pontointeligente.api.utils.PasswordUtils;
 
 

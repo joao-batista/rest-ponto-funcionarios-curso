@@ -22,6 +22,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import br.com.pontointeligente.api.entities.Lancamento;
 import br.com.pontointeligente.api.repositories.LancamentoRepository;
+import br.com.pontointeligente.api.services.LancamentoService;
 
 
 @RunWith(SpringRunner.class)
